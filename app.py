@@ -1,15 +1,12 @@
 import streamlit as st
 import pickle
 import numpy as np
+import os
 
-# import the model
-pipe = pickle.load(
-    open(os.path.join(BASE_DIR, 'pipe.pkl'), 'rb')
-)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-df = pickle.load(
-    open(os.path.join(BASE_DIR, 'df.pkl'), 'rb')
-)
+pipe = pickle.load(open(os.path.join(BASE_DIR, 'pipe.pkl'), 'rb'))
+df = pickle.load(open(os.path.join(BASE_DIR, 'df.pkl'), 'rb'))
 
 st.title("Laptop Predictor")
 
