@@ -6,7 +6,7 @@ A Streamlit web app that estimates the price of a laptop based on brand, type, R
 
 ## Live Demo
 
-🔗 [Click here to try the app]([https://laptoppriceai-dng7xk563prmo9bkbgrv7x.streamlit.app/])  
+🔗 [Click here to try the app](https://laptoppriceai-dng7xk563prmo9bkbgrv7x.streamlit.app/)  
 
 ## Features
 
