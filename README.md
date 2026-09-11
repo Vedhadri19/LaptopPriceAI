@@ -15,20 +15,40 @@ A Streamlit web app that estimates the price of a laptop based on brand, type, R
 - Uses a full scikit-learn + XGBoost stacking pipeline
 - Includes complete data analysis and model training notebook
 
-## 📂 Project Structure
+## Project Structure
 
 LaptopPriceAI/
 │
-├── app.py                          # Streamlit application
-├── pipe.pkl                        # Trained ML pipeline
-├── df.pkl                          # Processed dataframe for UI options
-├── laptop_data.csv                 # Raw dataset
-├── laptop-price-predictor.ipynb    # EDA and model training
-├── requirements.txt                # Project dependencies
-├── runtime.txt                     # Python version for Streamlit Cloud
-├── setup.sh                        # Streamlit configuration setup
-├── Procfile                        # Deployment command
-└── README.md                       # Project documentation
+├── app.py
+│   └── Streamlit application
+│
+├── pipe.pkl
+│   └── Trained ML pipeline
+│
+├── df.pkl
+│   └── Processed dataframe for UI options
+│
+├── laptop_data.csv
+│   └── Raw dataset
+│
+├── laptop-price-predictor.ipynb
+│   └── EDA and model training
+│
+├── requirements.txt
+│   └── Project dependencies
+│
+├── runtime.txt
+│   └── Python version for Streamlit Cloud
+│
+├── setup.sh
+│   └── Streamlit configuration setup
+│
+├── Procfile
+│   └── Deployment command
+│
+└── README.md
+    └── Project documentation
+
 
 
 
